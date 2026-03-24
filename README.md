@@ -24,21 +24,34 @@ It is based on the **Ames Housing Dataset** and follows a clean, modular Machine
 
 ---
 
+
 ## 🗂 Project Structure
 ```
-/house_price_prediction/
-│
-├── src/
-│ ├── main.py # Entry point of the project
-│ ├── data_loader.py # Load dataset
-│ ├── preprocessing.py # Data cleaning & feature engineering
-│ └── model.py # Training & evaluation of models
-│
-├── data/
-│ └── train.csv # Dataset (not included in repo)
-│
-├── README.md
-└── requirements.txt
+house_price_prediction_advanced/
+|
+|-- app.py
+|-- data/
+|   |-- train.csv
+|-- models/
+|   |-- .gitkeep
+|   |-- best_model.joblib
+|-- photo/
+|   |-- photo1.png
+|   |-- photo2.png
+|   |-- photo3.png
+|   |-- photo4.png
+|   |-- photo5.png
+|-- src/
+|   |-- main.py
+|   |-- data_loader.py
+|   |-- model.py
+|   |-- pipeline_training.py
+|   |-- preprocessing.py
+|   |-- streamlit_app.py
+|-- tests/
+|   |-- test_pipeline_training.py
+|-- requirements.txt
+|-- README.md
 ```
 
 ## ⚙️ How to Run the Project
